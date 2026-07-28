@@ -1,7 +1,7 @@
 # Campaign Documentation: ShadowTech Group vs. FinTech Inc.
 
 ## Overview
-This document provides a technical breakdown and structured mapping of the campaign executed by the **ShadowTech Group** against **FinTech Inc**[cite: 1]. It outlines the adversary's attack flow, initial access vectors, execution methods, and persistence mechanisms based on standardized threat intelligence frameworks[cite: 1].
+This document provides a technical breakdown and structured mapping of the campaign executed by the **ShadowTech Group** against **FinTech Inc**. It outlines the adversary's attack flow, initial access vectors, execution methods, and persistence mechanisms based on standardized threat intelligence frameworks.
 
 ---
 
