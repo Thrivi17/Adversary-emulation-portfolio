@@ -1,20 +1,14 @@
-# Adversary Emulation & Attack Flow Modeling
+# Threat Emulation & Flows (`.afb`)
 
-A collection of structured threat intelligence artifacts, multi-stage adversary emulation workflows, and machine-readable attack flows mapped to real-world campaigns.
+## Overview
+This repository contains machine-readable Attack Flow Builder (`.afb`) artifacts, threat emulation scenarios, and structured adversary campaign models based on STIX 2.1 standards. It serves as a centralized collection for mapping threat actor techniques, tracking attack chains, and supporting detection engineering workflows.
 
-## 📂 Project Structure
-- `/flows` - Contains machine-readable `.afb` (Attack Flow Builder) files built using STIX 2.1 standards.
-- Emulation notes and technique mappings derived from structured threat intelligence frameworks.
+## Repository Structure
+* **`campaigns/`**
+  * Contains structured `.afb` JSON files mapping specific threat group campaigns, attack flows, and tactics.
+* **`documentation/`**
+  * Overview guides, mapping matrices, and integration notes for visualizing and testing attack paths using the Attack Flow Builder framework.
 
-## 🔍 Featured Artifact: MenuPass Campaign Flow
-* **File:** `/flows/menupass_attack_flow.afb`
-* **Objective:** Modeled a multi-stage intrusion campaign associated with the MenuPass (APT10) threat group to visualize technique sequencing, behavioral transitions, and telemetry dependencies.
-* **Key Focus Areas:**
-  * Mapping initial access vectors to post-compromise activity.
-  * Analyzing operational progression and persistence mechanisms.
-  * Translating adversary paths into detection engineering logic.
-
-## 🛠️ Tools & Frameworks
-* **Attack Flow Builder** (Center for Threat-Informed Defense)
-* **STIX 2.1** Open standards for cyber threat information expression
-* **MITRE ATT&CK** Framework mapping
+## Usage
+1. Import `.afb` files directly into the **Attack Flow Builder** interface to visualize, validate, or modify adversary behavioral models.
+2. Cross-reference the mapped techniques with your telemetry and SIEM logging rules to verify defensive coverage and alert detection logic.
