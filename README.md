@@ -5,7 +5,7 @@ This repository contains machine-readable Attack Flow Builder (`.afb`) artifacts
 
 ## Repository Structure
 * **`campaigns/`**
-  * Contains structured `.afb` JSON files and their supporting png files mapping specific threat group campaigns, attack flows, and tactics.
+  * Contains structured `.afb` JSON files and their supporting `.png` files mapping specific threat group campaigns, attack flows, and tactics.
 * **`documentation/`**
   * Overview guides, mapping matrices, and integration notes for visualizing and testing attack paths using the Attack Flow Builder framework.
 
